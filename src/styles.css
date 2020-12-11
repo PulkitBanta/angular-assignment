@@ -15,7 +15,7 @@
 .btn:hover {
   color: white;
   background-color: black;
-  transform: scale(1.25);
+  transform: scale(1.125);
 }
 
 input {

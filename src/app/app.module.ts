@@ -8,7 +8,7 @@ import { Ques1Component } from './questions/ques1/ques1.component';
 import { Ques2Component } from './questions/ques2/ques2.component';
 import { Ques3Component } from './questions/ques3/ques3.component';
 import { Ques4Component } from './questions/ques4/ques4.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LabelComponent } from './questions/ques4/label/label.component';
 import { DataInputComponent } from './questions/ques4/data-input/data-input.component';
 import { PanelComponent } from './questions/ques2/panel/panel.component';
@@ -30,6 +30,7 @@ import { InputComponent } from './questions/ques2/input/input.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],

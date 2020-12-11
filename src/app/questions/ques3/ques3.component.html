@@ -1,1 +1,21 @@
-<p>ques3 works!</p>
+<form [formGroup]="userForm" (ngSubmit)="submitForm()">
+  <div>
+    <label for="phone">Phone Number</label>
+    <input type="number" formControlName="number" />
+  </div>
+  <div formArrayName="phones">
+    <h3>Phones</h3>
+    <button type="button" (click)="addNumber()">
+      Add another phone number
+    </button>
+
+    <div *ngFor="let phone of phones.controls; let i = index">
+      <!-- The repeated alias template -->
+      <label>
+        Phone: {{ i + 1 }}
+        <input type="number" [formControlName]="i" />
+      </label>
+    </div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
