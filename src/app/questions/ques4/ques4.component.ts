@@ -3,13 +3,16 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ques4',
   templateUrl: './ques4.component.html',
-  styleUrls: ['./ques4.component.css']
+  styleUrls: ['./ques4.component.css'],
 })
 export class Ques4Component implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  data: string;
+
+  updateData(value) {
+    this.data = value;
   }
-
 }

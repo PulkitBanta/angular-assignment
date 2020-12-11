@@ -1,1 +1,8 @@
-<p>ques4 works!</p>
+<app-label data="{{ data }}" class="top-left"></app-label>
+<app-label data="{{ data }}" class="top-right"></app-label>
+<app-label data="{{ data }}" class="bottom-left"></app-label>
+<app-label data="{{ data }}" class="bottom-right"></app-label>
+
+<div class="flex">
+  <app-data-input (changeEvent)="updateData($event)"></app-data-input>
+</div>

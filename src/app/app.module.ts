@@ -9,6 +9,8 @@ import { Ques2Component } from './questions/ques2/ques2.component';
 import { Ques3Component } from './questions/ques3/ques3.component';
 import { Ques4Component } from './questions/ques4/ques4.component';
 import { FormsModule } from '@angular/forms';
+import { LabelComponent } from './questions/ques4/label/label.component';
+import { DataInputComponent } from './questions/ques4/data-input/data-input.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     Ques1Component,
     Ques2Component,
     Ques3Component,
-    Ques4Component
+    Ques4Component,
+    LabelComponent,
+    DataInputComponent
   ],
   imports: [
     BrowserModule,
