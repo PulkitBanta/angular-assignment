@@ -1,1 +1,19 @@
-<p>ques1 works!</p>
+<div class="flex">
+  <div class="list-container">
+    <span class="val" *ngFor="let val of list">{{ val }}</span>
+  </div>
+
+  <div>
+    <input
+      type="number"
+      name="index"
+      placeholder="Enter an index (starting from 0)"
+      [(ngModel)]="index"
+    />
+    <button (click)="showVal()">Find value</button>
+  </div>
+
+  <div>
+    {{ selectedValue }}
+  </div>
+</div>
