@@ -1,0 +1,10 @@
+.bg-dark {
+  color: white;
+  padding: 0.5em 1em;
+  margin: 0.25em 0.75em;
+  background-color: #3e3e3e;
+}
+
+input {
+  margin: 2em;
+}

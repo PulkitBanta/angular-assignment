@@ -1,1 +1,8 @@
-<p>ques2 works!</p>
+<div style="text-align: center; margin: 2em">
+  <button class="btn" (click)="addPanel()">+</button>
+</div>
+
+<app-panel
+  name="{{ val.name }}"
+  *ngFor="let val of list; index as i"
+></app-panel>

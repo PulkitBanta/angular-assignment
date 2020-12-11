@@ -1,23 +1,8 @@
 .flex {
-    width: 40%;
-    height: 90vh;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.btn {
-    padding: 1em;
-    border: none;
-    border-radius: 8px;
-    background-color: rgb(255, 244, 231);
-    box-shadow: 0 0 6px #9e9e9e;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn:hover {
-    color: white;
-    background-color: black;
-    transform: scale(1.25);
+  width: 40%;
+  height: 90vh;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
 }

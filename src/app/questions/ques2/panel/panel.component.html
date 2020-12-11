@@ -1,0 +1,6 @@
+<div class="border">
+  <h3 style="text-align: center;">{{ name }}</h3>
+  <button class="btn margin" (click)="addInput()">+</button>
+
+  <app-input *ngFor="let input of inputList"></app-input>
+</div>

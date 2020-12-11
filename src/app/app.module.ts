@@ -11,6 +11,8 @@ import { Ques4Component } from './questions/ques4/ques4.component';
 import { FormsModule } from '@angular/forms';
 import { LabelComponent } from './questions/ques4/label/label.component';
 import { DataInputComponent } from './questions/ques4/data-input/data-input.component';
+import { PanelComponent } from './questions/ques2/panel/panel.component';
+import { InputComponent } from './questions/ques2/input/input.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { DataInputComponent } from './questions/ques4/data-input/data-input.comp
     Ques3Component,
     Ques4Component,
     LabelComponent,
-    DataInputComponent
+    DataInputComponent,
+    PanelComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
